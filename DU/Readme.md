@@ -28,6 +28,5 @@ Explorar y comprender la información registrada en la base de datos sobre traba
 - Lograr visualizaciones comprensibles que muestren la distribución del trabajo infantil según variables clave.  
 - Identificar patrones que permitan caracterizar el fenómeno en la muestra (ejemplo: diferencias entre localidades o por género).  
 
----
 
 
