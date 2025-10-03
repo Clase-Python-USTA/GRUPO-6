@@ -1,4 +1,4 @@
-## Business Understanding
+# Business Understanding
 El presente análisis corresponde a la fase de Data Understanding de la metodología CRISP-DM. Incluye tanto la determinación de objetivos como la exploración inicial de los datos. Esta etapa busca **comprender la estructura, distribución y calidad de la información**.  
 
 ## Objetivo de negocio  
@@ -10,8 +10,7 @@ El objetivo de negocio es comprender la situación de los niños, niñas y adole
 - **Identificar diferencias relevantes entre localidades** que permitan dimensionar cómo varía el fenómeno dentro de la ciudad.  
 - Disponer de información organizada y visual que facilite la comprensión de la problemática para orientar posibles análisis posteriores o la toma de decisiones.  
 
-#### Criterios de éxito del Negocio
-# Criterios de éxito de negocio
+## Criterios de éxito de negocio
 
 1. **Cobertura de la información**  
    El proyecto será exitoso si logramos trabajar con la gran mayoría de los registros disponibles.  
