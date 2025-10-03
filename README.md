@@ -10,6 +10,35 @@ El objetivo de negocio es comprender la situación de los niños, niñas y adole
 - **Identificar diferencias relevantes entre localidades** que permitan dimensionar cómo varía el fenómeno dentro de la ciudad.  
 - Disponer de información organizada y visual que facilite la comprensión de la problemática para orientar posibles análisis posteriores o la toma de decisiones.  
 
+#### Criterios de éxito del Negocio
+# Criterios de éxito de negocio
+
+1. **Cobertura de la información**  
+   El proyecto será exitoso si logramos trabajar con la gran mayoría de los registros disponibles.  
+   La meta es que al menos el **90% de la información** quede organizada y lista para el análisis,  
+   sin datos perdidos o desordenados.  
+
+2. **Entender el entorno familiar y social**  
+   Se considerará un buen resultado si, a partir de los registros, podemos identificar factores que  
+   influyen en el trabajo infantil y adolescente, como la situación familiar o el acompañamiento social.  
+   Será un éxito si esos hallazgos son reconocidos como útiles por personas expertas o instituciones  
+   que trabajan en el tema.  
+
+3. **Comparación entre localidades**  
+   El proyecto será útil si logramos mostrar cómo varía el trabajo infantil en las distintas localidades  
+   de Bogotá. Al menos deberíamos poder señalar **tres diferencias claras y fáciles de entender** entre  
+   zonas de la ciudad.  
+
+4. **Presentación clara y visual**  
+   Un criterio de éxito es que la información no quede solo en tablas complicadas, sino que se presente  
+   en gráficos, tableros o informes visuales que permitan comprender el problema de manera rápida y  
+   sencilla, incluso para alguien que no sea experto en estadísticas.  
+
+5. **Valor para los actores sociales**  
+   Finalmente, se considerará exitoso si las entidades, organizaciones o personas interesadas en el tema  
+   encuentran que la información obtenida les ayuda a tomar decisiones, crear programas o simplemente  
+   entender mejor la situación del trabajo infantil en Bogotá.  
+
 ---
 
 ## Evaluación de la situación
