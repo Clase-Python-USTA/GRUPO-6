@@ -12,6 +12,7 @@ El objetivo de negocio es comprender la situación de los niños, niñas y adole
 
 ---
 
+## Evaluación de la situación
 
 
 
@@ -47,4 +48,8 @@ Explorar y comprender la información registrada en la base de datos sobre traba
 ## Criterios de éxito de la mineria de datos
 - Obtener un resumen claro y organizado de los datos (número de registros, tipos de variables y estadísticas básicas).  
 - Lograr visualizaciones comprensibles que muestren la distribución del trabajo infantil según variables clave.  
-- Identificar patrones que permitan caracterizar el fenómeno en la muestra (ejemplo: diferencias entre localidades o por género).  
+- Identificar patrones que permitan caracterizar el fenómeno en la muestra (ejemplo: diferencias entre localidades o por género).
+
+---
+
+## Plan del proyecto
