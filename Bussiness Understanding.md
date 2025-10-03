@@ -1,1 +1,8 @@
+# GRUPO-6
+Repositorio del grupo 6 para la clase de Python (USTA).
+
+## Integrantes
+- Vanessa Cortes
+- Lina Rozo
+- Paula Guevara
 
