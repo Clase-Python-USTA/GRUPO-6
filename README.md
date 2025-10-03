@@ -29,14 +29,9 @@ El objetivo de negocio es comprender la situación de los niños, niñas y adole
    zonas de la ciudad.  
 
 4. **Presentación clara y visual**  
-   Un criterio de éxito es que la información no quede solo en tablas complicadas, sino que se presente  
+   Finalmente, un criterio de éxito es que la información no quede solo en tablas complicadas, sino que se presente  
    en gráficos, tableros o informes visuales que permitan comprender el problema de manera rápida y  
    sencilla, incluso para alguien que no sea experto en estadísticas.  
-
-5. **Valor para los actores sociales**  
-   Finalmente, se considerará exitoso si las entidades, organizaciones o personas interesadas en el tema  
-   encuentran que la información obtenida les ayuda a tomar decisiones, crear programas o simplemente  
-   entender mejor la situación del trabajo infantil en Bogotá.  
 
 ---
 
@@ -44,8 +39,6 @@ El objetivo de negocio es comprender la situación de los niños, niñas y adole
 
 **Fuente:** `base_datos_completa_nna_ti_anon.xlsx` (5.139.043 filas, 91 variables) + diccionario  
 **Trabajo:** GitHub · Visual Studio Code · Python
-
-
 
 ### Inventario de recursos
 
@@ -62,7 +55,6 @@ El objetivo de negocio es comprender la situación de los niños, niñas y adole
 
 **Herramientas**
 - GitHub (versionado), VS Code (edición), Python (limpieza y análisis).
-
 
 ### Requerimientos, presunciones y restricciones
 
