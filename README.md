@@ -104,12 +104,12 @@ El objetivo de negocio es comprender la situación de los niños, niñas y adole
 
 
 
-**Costos previstos**
+### Costos previstos
 - Limpieza y gobierno del dato (reglas `99999`, tipificación, PII).
 - Cómputo y almacenamiento para >5M filas.
 - Documentación mínima: *data card*, scripts y tablero simple.
 
-**Beneficios medibles**
+### Beneficios medibles
 - Aumento de tasa de desvinculación por `Localidad`/`UPZ` y por `UT`.
 - Reducción del tiempo a cierre.
 - Priorización territorial con variables categóricas existentes.
