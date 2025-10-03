@@ -113,25 +113,7 @@ El objetivo de negocio es comprender la situación de los niños, niñas y adole
 - Aumento de tasa de desvinculación por `Localidad`/`UPZ` y por `UT`.
 - Reducción del tiempo a cierre.
 - Priorización territorial con variables categóricas existentes.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- 
 ---
 
 ## Objetivo general de la minería de datos 
@@ -153,3 +135,42 @@ Explorar y comprender la información registrada en la base de datos sobre traba
 ---
 
 ## Plan del proyecto
+
+**Objetivo general**  
+Comprender y dimensionar la situación de niños, niñas y adolescentes en trabajo infantil en Bogotá, a partir de registros sociales, familiares y psicológicos, para orientar políticas y programas de protección.
+
+## Etapas principales
+
+1. **Comprensión del negocio**  
+   - Revisar objetivos y contexto normativo.  
+   - **Salida**: Documento de entendimiento del problema.  
+
+2. **Comprensión y preparación de datos**  
+   - Revisar calidad, limpiar e integrar información.  
+   - **Salida**: Dataset depurado para análisis.  
+
+3. **Análisis y modelado (4 semanas)**  
+   - Estadística descriptiva, segmentación, factores de riesgo.  
+   - **Salida**: Indicadores y modelos preliminares.  
+
+4. **Evaluación (2 semanas)**  
+   - Validar resultados frente a objetivos.  
+   - **Salida**: Revisión y ajustes.  
+
+5. **Presentación y despliegue (2 semanas)**  
+   - Dashboards, informes y recomendaciones.  
+   - **Salida**: Tablero interactivo y reporte final.  
+
+## Herramientas y técnicas
+
+- **Python / R** → limpieza, análisis y modelado.  
+- **Power BI / Looker Studio** → visualización de indicadores.  
+- **Excel** → validaciones rápidas.  
+
+
+## Riesgos clave
+- **Datos faltantes (>99%)** → Eliminacion.
+- **Datos faltantes (~40%)** → imputación y análisis sensible.  
+- **Unidad de análisis poco clara** → definir NNA vs evento.   
+
+---
