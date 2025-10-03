@@ -15,17 +15,13 @@ El objetivo de negocio es comprender la situación de los niños, niñas y adole
 ## Objetivo general de la exploración de datos  
 Explorar y comprender la información registrada en la base de datos sobre trabajo infantil y adolescente en Bogotá, describiendo su distribución según variables sociales, familiares, económicas, personales y de acompañamiento psicosocial, con el propósito de generar un entendimiento inicial para fases posteriores del proceso.  
 
----
-
-## 3. Objetivos específicos de la exploración de datos  
+## Objetivos específicos de la exploración de datos  
 - Describir las características de la base de datos, identificando el número de registros, las variables disponibles y sus tipos.  
 - Identificar patrones y relaciones entre variables relevantes, tales como:  
   - Diferencias por localidad.  
   - Relación entre situación familiar y acompañamiento recibido.  
 - Evaluar la calidad de los datos, detectando valores faltantes, inconsistencias, códigos especiales (ej. `9999`, `NA`) y posibles registros duplicados.  
 - Generar visualizaciones y reportes descriptivos que permitan orientar las siguientes fases del proceso.  
-
----
 
 ## Criterios de éxito de la exploración
 - Obtener un resumen claro y organizado de los datos (número de registros, tipos de variables y estadísticas básicas).  
