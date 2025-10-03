@@ -42,6 +42,78 @@ El objetivo de negocio es comprender la situación de los niños, niñas y adole
 
 ## Evaluación de la situación
 
+**Fuente:** `base_datos_completa_nna_ti_anon.xlsx` (5.139.043 filas, 91 variables) + diccionario  
+**Trabajo:** GitHub · Visual Studio Code · Python
+
+
+
+### Inventario de recursos
+
+**Datos disponibles**
+
+- **Identificación y fechas:** `Id_fic`, `Usuario`, `Red_fic`, `Fecha_intervencion`, `Fecha_seguimiento_cierre`, `Fecha_reposicion`.
+- **Resultados:** `NNA_desvinculado_de_la_actividad_laboral`, `Adolescente_trabajo_protegido`, `Intervencion_..._que_termina_el_proceso`.
+- **Salud y alertas:** `Peso`, `Talla_cm`, `Clasificacion_nutricional`, `Requiere_asesoria_de_nutricion`, `Alertas_psicosociales`, `Alertas_salud_bucal`, `Alertas_infancia`, `Alertas_en_mujeres`, `Etapa_de_gestacion`.
+- **Persona y hogar:** `Edad` *(faltante alto)*, `Sexo`, `Genero`, `Estado_civil`, `Nacionalidad`, `Etnia`, `Pueblo`, `Vinculo_con_el_jefe_de_hogar`, `Personas_a_cargo`.
+- **Educación y trabajo:** `Ocupacion`, `IdNivelEducativo`, `RazonAbandonoEscolar`.
+- **Protección social:** `Afiliacion_al_SGSSS`, `Nombre_EAPB`, `Subgrupo_SISBEN`, `Estrato`.
+- **Territorio:** `Localidad`, `UPZ`, `Barrio`, `Barrio_priorizado`, `Manzana_del_cuidado`, dirección, `Coordenadas_X/Y`.
+- **Operación:** `Nombre_de_la_UT`, `Perfil profesional`, `Temas_tratados`, `Acompanamiento#`, `IEC#`.
+
+**Herramientas**
+- GitHub (versionado), VS Code (edición), Python (limpieza y análisis).
+
+
+### Requerimientos, presunciones y restricciones
+
+**Requerimientos**
+- **PII:** quitar o seudonimizar nombres, documento, teléfonos, correos y dirección; publicar solo agregados.
+- **Códigos especiales:** convertir `99999`/“No aplica”/“Desconocido” a `NA`.
+- **Dataset analítico reproducible:** selección de variables, tipos y reglas de limpieza en un script Python del repositorio.
+- **Coherencia territorial:** revisar `Localidad`, `UPZ`, `Barrio`, `Barrio_priorizado`.
+
+**KPI iniciales**
+- **Tasa de desvinculación:** `# NNA_desvinculado = "Sí" / # casos cerrados`.  
+  Reporte por `Localidad`/`UPZ` y `UT`.
+- **Tiempo a cierre (días):** `Fecha_seguimiento_cierre - Fecha_intervencion`.  
+  Reporte por `Localidad`/`UPZ` y `UT`.
+
+**Restricciones**
+- Tamaño (5,1M × 91), catálogos heterogéneos, vacíos en `Edad`, direcciones variables.
+- Trabajo centrado en Python dentro del repositorio.
+
+
+
+### Riesgos y contingencias
+- **PII y datos sensibles →** *Acción:* seudonimizar/eliminar, acceso restringido, publicar agregados.
+- **`99999` y vacíos altos →** *Acción:* reglas de limpieza e imputación; categoría “Desconocido”; análisis de sensibilidad.
+- **Inconsistencia territorial →** *Acción:* cruces entre `Localidad`/`UPZ`/`Barrio`/`Barrio_priorizado`; priorizar `Localidad`/`UPZ` si hay choque.
+- **Duplicados por persona →** *Acción:* revisar con llave (`Tipo_documento`, `Numero_documento`, `Fecha_intervencion`, `Localidad`).
+- **Costo computacional →** *Acción:* procesar por partes, leer por columnas, muestrear para pruebas.
+
+
+### Terminología
+- **Desvinculación:** salida del NNA del trabajo (`NNA_desvinculado_de_la_actividad_laboral`).
+- **Trabajo protegido:** actividad permitida para adolescentes (`Adolescente_trabajo_protegido`).
+- **Ficha de intervención:** registro de atención (`Id_fic`).
+- **Acompañamiento / Seguimiento-cierre:** acciones del caso (`Acompanamiento#`) / fin del caso (`Fecha_seguimiento_cierre`).
+- **UT:** operador del programa (`Nombre_de_la_UT`).
+- **Manzana del cuidado / Barrio priorizado:** etiquetas territoriales.
+- **Seudonimización:** reemplazar datos personales por códigos.
+- **Dataset analítico:** versión limpia que produce el script.
+
+
+
+**Costos previstos**
+- Limpieza y gobierno del dato (reglas `99999`, tipificación, PII).
+- Cómputo y almacenamiento para >5M filas.
+- Documentación mínima: *data card*, scripts y tablero simple.
+
+**Beneficios medibles**
+- Aumento de tasa de desvinculación por `Localidad`/`UPZ` y por `UT`.
+- Reducción del tiempo a cierre.
+- Priorización territorial con variables categóricas existentes.
+
 
 
 
