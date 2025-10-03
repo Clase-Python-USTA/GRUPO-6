@@ -1,1 +1,11 @@
+## 2. Evaluación de la situación
+
+### 2.1 Inventario de recursos
+**Equipo.** Somos el Grupo 6. Nos dividimos en recolección, análisis y redacción. La profesora valida entregables.  
+**Datos.** `data/raw/base_datos_completa_NNA_TI_anon.xlsx` · **5.139.043** registros · **91** variables · Bogotá.  
+**Cobertura de la base.** Identificación y trazabilidad de casos; demografía (edad, sexo, etnia, curso de vida); hogar y educación; salud y aseguramiento (SGSSS/EAPB); territorio de residencia y laboral (Localidad, UPZ/UPR, Barrio, SISBEN, Estrato); información del trabajo del NNA; módulos de acompañamiento 1–4 (fechas, temas, alertas, cumplimiento); resultados y cierre (desvinculación, trabajo protegido).  
+**PII en la base.** Direcciones, teléfonos, correos. Uso solo interno para control de calidad.  
+**Plataforma.** Repositorio GitHub del grupo con estructura `data/`, `src/`, `notebooks/`, `reports/`. VS Code o Codespaces.  
+**Herramientas.** Excel para inspección. Python o R para EDA y gráficos. QGIS si se requieren mapas por Localidad/UPZ.  
+**Recursos técnicos.** Datos grandes. Trabajaremos por muestras o por lotes cuando sea necesario. Git LFS para versionar archivos `.xlsx` y `.csv`.
 
