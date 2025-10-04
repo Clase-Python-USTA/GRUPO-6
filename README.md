@@ -44,14 +44,10 @@ El objetivo de negocio es comprender la situación de los niños, niñas y adole
 
 **Datos disponibles**
 
-- **Identificación y fechas:** `Id_fic`, `Usuario`, `Red_fic`, `Fecha_intervencion`, `Fecha_seguimiento_cierre`, `Fecha_reposicion`.
-- **Resultados:** `NNA_desvinculado_de_la_actividad_laboral`, `Adolescente_trabajo_protegido`, `Intervencion_..._que_termina_el_proceso`.
-- **Salud y alertas:** `Peso`, `Talla_cm`, `Clasificacion_nutricional`, `Requiere_asesoria_de_nutricion`, `Alertas_psicosociales`, `Alertas_salud_bucal`, `Alertas_infancia`, `Alertas_en_mujeres`, `Etapa_de_gestacion`.
-- **Persona y hogar:** `Edad` *(faltante alto)*, `Sexo`, `Genero`, `Estado_civil`, `Nacionalidad`, `Etnia`, `Pueblo`, `Vinculo_con_el_jefe_de_hogar`, `Personas_a_cargo`.
-- **Educación y trabajo:** `Ocupacion`, `IdNivelEducativo`, `RazonAbandonoEscolar`.
-- **Protección social:** `Afiliacion_al_SGSSS`, `Nombre_EAPB`, `Subgrupo_SISBEN`, `Estrato`.
-- **Territorio:** `Localidad`, `UPZ`, `Barrio`, `Barrio_priorizado`, `Manzana_del_cuidado`, dirección, `Coordenadas_X/Y`.
-- **Operación:** `Nombre_de_la_UT`, `Perfil profesional`, `Temas_tratados`, `Acompanamiento#`, `IEC#`.
+- **Volumen:** 5.139.043 filas y **91 variables**.
+- **Composición:** variables **numéricas** (mediciones y conteos), **categóricas** (perfiles, estados, territorios), **de fecha** (intervención, cierre, reposición), **texto/dirección**, **geográficas** (`Coordenadas_X/Y`) e **identificadores**.
+- **Cobertura temática:** resultados del caso, salud y alertas, persona y hogar, educación y trabajo, protección social, territorio y operación del programa.
+
 
 **Herramientas**
 - GitHub (versionado), VS Code (edición), Python (limpieza y análisis).
