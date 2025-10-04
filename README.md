@@ -93,7 +93,7 @@ El objetivo de negocio es comprender la situación de los niños, niñas y adole
 - Aumento de tasa de desvinculación por `Localidad`/`UPZ` y por `UT`.
 - Reducción del tiempo a cierre.
 - Priorización territorial con variables categóricas existentes.
-- 
+  
 ---
 
 ## Objetivo general de la minería de datos 
