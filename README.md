@@ -60,16 +60,9 @@ El objetivo de negocio es comprender la situación de los niños, niñas y adole
 - **Dataset analítico reproducible:** selección de variables, tipos y reglas de limpieza en un script Python del repositorio.
 - **Coherencia territorial:** revisar `Localidad`, `UPZ`, `Barrio`, `Barrio_priorizado`.
 
-**KPI iniciales**
-- **Tasa de desvinculación:** `# NNA_desvinculado = "Sí" / # casos cerrados`.  
-  Reporte por `Localidad`/`UPZ` y `UT`.
-- **Tiempo a cierre (días):** `Fecha_seguimiento_cierre - Fecha_intervencion`.  
-  Reporte por `Localidad`/`UPZ` y `UT`.
-
 **Restricciones**
 - Tamaño (5,1M × 91), catálogos heterogéneos, vacíos en `Edad`, direcciones variables.
 - Trabajo centrado en Python dentro del repositorio.
-
 
 
 ### Riesgos y contingencias
@@ -89,7 +82,6 @@ El objetivo de negocio es comprender la situación de los niños, niñas y adole
 - **Manzana del cuidado / Barrio priorizado:** etiquetas territoriales.
 - **Seudonimización:** reemplazar datos personales por códigos.
 - **Dataset analítico:** versión limpia que produce el script.
-
 
 
 ### Costos previstos
