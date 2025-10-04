@@ -129,7 +129,7 @@ Comprender y dimensionar la situación de niños, niñas y adolescentes en traba
    - Revisar calidad, limpiar e integrar información.  
    - **Salida**: Dataset depurado para análisis.  
 
-3. **Análisis y modelado**  
+3. **Análisis**  
    - Estadística descriptiva, segmentación, factores de riesgo.  
    - **Salida**: Indicadores y modelos preliminares.  
 
