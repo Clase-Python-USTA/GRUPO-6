@@ -2,7 +2,7 @@
 El presente análisis corresponde a la fase de Data Understanding de la metodología CRISP-DM. Incluye tanto la determinación de objetivos como la exploración inicial de los datos. Esta etapa busca **comprender la estructura, distribución y calidad de la información**.  
 
 ## Objetivo de negocio  
-El objetivo de negocio es comprender la situación de los niños, niñas y adolescentes en condición de trabajo infantil y adolescente en Bogotá, a partir de la información recolectada en los registros de acompañamiento social, familiar y psicológico, con el fin de contar con una visión clara de cómo se presenta este fenómeno en la ciudad yqu epoliticas públicas se podrian implementar para el bienestar de los menores de edad.  
+El objetivo de negocio es comprender la situación de los niños, niñas y adolescentes en condición de trabajo infantil y adolescente en Bogotá, a partir de la información recolectada en los registros de acompañamiento social, familiar y psicológico, con el fin de contar con una visión clara de cómo se presenta este fenómeno en la ciudad y que politicas públicas se podrian implementar para el bienestar de los menores de edad.  
 
 ## Objetivos específicos 
 - **Caracterizar la población en condición de trabajo infantil/adolescente** en Bogotá según variables demográficas (edad, género, localidad).  
