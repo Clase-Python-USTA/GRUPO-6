@@ -129,15 +129,15 @@ Comprender y dimensionar la situación de niños, niñas y adolescentes en traba
    - Revisar calidad, limpiar e integrar información.  
    - **Salida**: Dataset depurado para análisis.  
 
-3. **Análisis y modelado (4 semanas)**  
+3. **Análisis y modelado**  
    - Estadística descriptiva, segmentación, factores de riesgo.  
    - **Salida**: Indicadores y modelos preliminares.  
 
-4. **Evaluación (2 semanas)**  
+4. **Evaluación**  
    - Validar resultados frente a objetivos.  
    - **Salida**: Revisión y ajustes.  
 
-5. **Presentación y despliegue (2 semanas)**  
+5. **Presentación y despliegue**  
    - Dashboards, informes y recomendaciones.  
    - **Salida**: Tablero interactivo y reporte final.  
 
