@@ -14,7 +14,7 @@ El objetivo de negocio es identificar la situación de los niños, niñas y adol
 
 1. **Cobertura de la información**  
    El proyecto será exitoso si logramos trabajar con la gran mayoría de los registros disponibles.  
-   La meta es que al menos el **90% de la información** quede organizada y lista para el análisis,  
+   La meta es que al menos el **60% de la información** quede organizada y lista para el análisis,  
    sin datos perdidos o desordenados.  
 
 2. **Entender el entorno familiar y social**  
