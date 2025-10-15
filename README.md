@@ -143,13 +143,13 @@ Comprender y dimensionar la situación de niños, niñas y adolescentes en traba
 
 ## Herramientas y técnicas
 
-- **Python / R** → limpieza, análisis y modelado.  
-- **Power BI / Looker Studio** → visualización de indicadores.  
+- **Python** → limpieza, análisis y modelado.  
+- **Power BI** → visualización de indicadores.  
 - **Excel** → validaciones rápidas.  
 
 
 ## Riesgos clave
-- **Datos faltantes (>99%)** → Eliminacion.
+- **Datos faltantes (>50%)** → Eliminacion.
 - **Datos faltantes (~40%)** → imputación y análisis sensible.  
 - **Unidad de análisis poco clara** → definir NNA vs evento.   
 
