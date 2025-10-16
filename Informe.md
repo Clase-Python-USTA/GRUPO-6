@@ -161,8 +161,25 @@ El análisis permitió **identificar desigualdades** significativas entre locali
 <img width="923" height="590" alt="image" src="https://github.com/user-attachments/assets/4b69a262-ecda-4a03-aadf-a8dbea95715a" />
 
 ---
+## 5. Pruebas Estadisticas
 
-## 5️. Deployment / Desarrollo
+![Imagen de WhatsApp 2025-10-16 a las 17 25 53_ffc8a2e9](https://github.com/user-attachments/assets/b54a6270-7775-4013-84d7-1f4f7b33aa90)
+
+La prueba Chi-cuadrado entre localidad y sexo mostró un valor p = 0.9983, lo que indica que no hay diferencias significativas en la distribución de género entre las localidades.
+(H₀: No existe relación significativa entre la localidad y el sexo de los niños trabajadores.
+(La distribución por sexo es similar en todas las localidades.))
+
+la Chi-cuadrado entre localidad y nacionalidad presentó un p < 0.001 y un Cramer’s V = 0.24, evidenciando una asociación moderada: la proporción de niños colombianos y extranjeros varía según la zona. 
+(H₀: No existe asociación entre la localidad y la nacionalidad de los niños.
+(La proporción de colombianos y extranjeros es la misma en todas las zonas.))
+
+La prueba de Kruskal–Wallis (H = 333.17, p < 0.001) mostró diferencias significativas en la edad de los niños entre localidades, aunque el tamaño del efecto (e^2 = 0.01) fue pequeño, lo que sugiere que, aunque hay variaciones, las edades no difieren de forma sustancial entre zonas.
+
+(H₀: No hay diferencias significativas en la edad promedio de los niños entre localidades.
+(La distribución de edades es igual en todas las zonas.))
+
+
+## 6. Deployment / Desarrollo
 
 Esta fase implicó **la presentación e interpretación final de los resultados** para orientar la toma de decisiones.
 
