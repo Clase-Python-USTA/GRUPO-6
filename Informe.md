@@ -69,6 +69,21 @@ En esta etapa se evaluaron los resultados obtenidos de acuerdo con los tres obje
 ### a. Caracterización demográfica
 Se analizó la distribución por **edad, género y localidad**, evidenciando patrones diferenciales del trabajo infantil en distintos sectores de la ciudad.
 
+
+<img width="1590" height="590" alt="image" src="https://github.com/user-attachments/assets/da9d9edd-a754-4205-a7cb-146b9e3758d9" />
+
+<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/2210d56d-3e9c-4f77-b071-bb179273c890" />
+
+<img width="1389" height="690" alt="image" src="https://github.com/user-attachments/assets/4991bb5e-53f3-4656-a3f1-995f4aba207b" />
+
+<img width="1389" height="690" alt="image" src="https://github.com/user-attachments/assets/9de1c674-9ac3-4e32-a2d8-05d0d27ffecd" />
+
+<img width="1389" height="689" alt="image" src="https://github.com/user-attachments/assets/94f51cc1-213d-417e-88d0-92a0b0cf67ec" />
+
+<img width="1389" height="690" alt="image" src="https://github.com/user-attachments/assets/d4dd9ba3-cbc5-4a9e-a82c-c0a1da3aec23" />
+
+
+
 ### b. Condiciones familiares y sociales
 Se estudiaron las relaciones de los menores con el jefe de hogar y las condiciones de afiliación al sistema de salud, con el fin de **comprender el entorno familiar** en el que surge el fenómeno.
 
