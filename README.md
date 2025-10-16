@@ -90,7 +90,7 @@ El objetivo de negocio es identificar la situación de los niños, niñas y adol
 - Documentación mínima: *data card*, scripts y tablero simple.
 
 ### Beneficios medibles
-- Aumento de tasa de desvinculación por `Localidad`/`UPZ` y por `UT`.
+- Aumento de tasa de desvinculación por `Localidad`.
 - Reducción del tiempo a cierre.
 - Priorización territorial con variables categóricas existentes.
   
@@ -143,8 +143,7 @@ Comprender y dimensionar la situación de niños, niñas y adolescentes en traba
 
 ## Herramientas y técnicas
 
-- **Python** → limpieza, análisis y modelado.  
-- **Power BI** → visualización de indicadores.  
+- **Python** → limpieza, análisis y visualizaciones.   
 - **Excel** → validaciones rápidas.  
 
 
